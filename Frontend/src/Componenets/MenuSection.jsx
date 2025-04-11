@@ -61,7 +61,7 @@ const MenuSection = () => {
     }
   }, [activeTab]);
 
-  // Handle card click
+ 
   const handleCardClick = () => {
     navigate('/order');
   };
