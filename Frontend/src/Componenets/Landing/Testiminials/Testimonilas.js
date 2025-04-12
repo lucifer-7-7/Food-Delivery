@@ -8,30 +8,61 @@ import 'swiper/css/pagination';
 import 'swiper/css/a11y';
 import './Testimonials.css';
 
-
 const testimonialData = [
   {
     id: 1,
-    content: 'Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.',
-    name: 'Saul Goodman',
-    role: 'CEO & Founder',
+    content: 'ಇದು ನಮೂರ ತಟ್ಟೆ ಊಟವನ್ನ ತುಂಬಾ ನೆನಪಿಸುತ್ತೆ. ಸಜ್ಜನರು ಕೆಲಸ ಮಾಡ್ತಾರೆ, ಬಡಿದ ಹಸಿವಿಗೆ ನೆಮ್ಮದಿಯ ಔಷಧಿ ಇದು.',
+    name: 'Ganesh Acharya',
+    role: 'Retired Bank Officer',
     image: '/img/testimonials/testimonials-1.jpg',
     stars: 5
   },
   {
     id: 2,
-    content: 'Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.',
-    name: 'Sara Wilsson',
-    role: 'Designer',
+    content: 'ಅಕ್ಕಿ ಸಾರು, ಪಲ್ಯಾ, ತಿಂಡಿಗಳ ರುಚಿ ಬರೀ ಮನಸ್ಸಿಗೆ ಸಿಹಿ. Kundapura ಹೋಟೆಲ್ ಅಂದ್ರೆ ಈಜಾಗಕೋ ಬಾ ಅಂದ್ರೆ!',
+    name: 'Jayashree Hebbar',
+    role: 'School Headmistress',
     image: '/img/testimonials/testimonials-2.jpg',
     stars: 5
   },
   {
     id: 3,
-    content: 'Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram.',
-    name: 'Jena Karlis',
-    role: 'Store Owner',
+    content: 'ಮೇಲ್ನೋಟಕ್ಕೆ ಸಾಂಪ್ರದಾಯಿಕ, ಆದರೆ ಎಲ್ಲ ಡೀಟೈಲ್ ನಲ್ಲಿ ಕಾಳಜಿ. ಇಡ್ಲಿ ವಡೆ, ಸ್ಪೆಷಲ್ ಬಿಸಿಬೇಳೆ ಭಾತ್ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು.',
+    name: 'Vinay Poojary',
+    role: 'Travel Blogger',
     image: '/img/testimonials/testimonials-3.jpg',
+    stars: 5
+  },
+  {
+    id: 4,
+    content: 'ಹೆಣ್ಮಕ್ಕಳಿಗೆ ಇದೊಂದು ಸುರಕ್ಷಿತ, ಸ್ವಚ್ಛವಾದ ಜಾಗ ಅನ್ನಿಸ್ತು. ತುಮಕೂರಿಂದ ಬಂದ್ರೆ ಮಿಸ್ ಮಾಡಬೇಡಿ.',
+    name: 'Shravani Shettar',
+    role: 'College Student',
+    image: '/img/testimonials/testimonials-4.jpg',
+    stars: 5
+  },
+  {
+    id: 5,
+    content: 'ಊಟ ಮಾಡೋದಕ್ಕಿಂತ ಮುಂಚೆ ಅಡಿಗೆಮನೆಯ ಘಮನೆ ಬೇಕಲ್ಲ, ಇಲ್ಲಿ ಅದು ಕೂಡಾ ಸಿಗುತ್ತೆ. ಬಾಯಿಗೆ ನೀರು ಬರುತ್ತೆ.',
+    name: 'Raghavendra Bhat',
+    role: 'Kannada Lecturer',
+    image: '/img/testimonials/testimonials-5.jpg',
+    stars: 5
+  },
+  {
+    id: 6,
+    content: 'You can taste the home-style love in every dish. This place defines what real South Indian food should feel like.',
+    name: 'Preethi Rao',
+    role: 'UX Designer',
+    image: '/img/testimonials/testimonials-6.jpg',
+    stars: 5
+  },
+  {
+    id: 7,
+    content: 'Clean space, great service, and the rasam was out of this world. Will definitely come back whenever I’m in Kundapura.',
+    name: 'Rahul Shenoy',
+    role: 'Startup Founder',
+    image: '/img/testimonials/testimonials-7.jpg',
     stars: 5
   }
 ];

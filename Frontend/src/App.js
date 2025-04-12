@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Header from './Componenets/Header.js';
-import Home from './Componenets/Home.jsx';
-import Footer from './Componenets/Footer.jsx';
-import Order from './Componenets/OrderPage.jsx';
-import Login from './Componenets/Login.jsx';
-import Registration from './Componenets/Registration.jsx';
-import CartPage from './Componenets/Cart.jsx';
+import Header from './Componenets/Landing/Header/Header';
+import Home from './Componenets/Landing/Home';
+import Footer from './Componenets/Landing/Footer/Footer';
+import Order from './Componenets/OrderPage';
+import Login from './Componenets/Auth/Login/Login';
+import Registration from './Componenets/Auth/Register/Registration';
+import CartPage from './Componenets/Landing/Cart/Cart';
 function MainLayout({ children }) {
   return (
     <>

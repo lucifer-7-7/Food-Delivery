@@ -61,21 +61,18 @@ const Gallery = () => {
           className="gallery-swiper"
         >
           {galleryImages.map((img, idx) => (
-            <SwiperSlide key={idx} className="swiper-slide align-items-center">
-              <a
-                className="glightbox"
-                href={`/img/gallery/${img}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={`/img/gallery/${img}`}
-                  className="img-fluid"
-                  alt={`Gallery ${idx + 1}`}
-                />
-              </a>
-            </SwiperSlide>
-          ))}
+          <SwiperSlide key={idx} className="swiper-slide align-items-center">
+            <div className="gallery-image-wrapper">
+              <img
+                src={`/img/gallery/${img}`}
+                className="img-fluid"
+                alt={`Gallery ${idx + 1}`}
+                draggable="false"
+              />
+            </div>
+          </SwiperSlide>
+        ))}
+
         </Swiper>
         <div className="swiper-pagination" />
       </div>

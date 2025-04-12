@@ -18,41 +18,40 @@ const About = () => {
             <img src="/img/about.jpg" className="main-image" alt="About Our Restaurant" />
             <div className="reservation-card">
               <h3>Book a Table</h3>
-              <p className="phone-number">+1 5589 55488 55</p>
+              <p className="+91 9632169727">+91 9632169727</p>
             </div>
           </div>
 
           <div className="about-text-column" data-aos="fade-up" data-aos-delay="250">
             <div className="content">
               <p className="intro-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Venkatalaxmi Mess is our newest venture, born from the growing demand for smaller meal packages 
+                (serving 5 to 10 people). We're here to serve fresh, homely, and hygienic food at affordable prices, 
+                perfect for locals, tourists, and working professionals.
               </p>
               
               <ul className="feature-list">
                 <li className="feature-item">
                   <i className="bi bi-check-circle-fill"></i>
-                  <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                  <span>Fresh, homely, and hygienic food at affordable prices</span>
                 </li>
                 <li className="feature-item">
                   <i className="bi bi-check-circle-fill"></i>
-                  <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+                  <span>Perfect for locals, tourists, and working professionals</span>
                 </li>
                 <li className="feature-item">
                   <i className="bi bi-check-circle-fill"></i>
                   <span>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta
-                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                    Every meal prepared with care, using fresh ingredients and traditional recipes
                   </span>
                 </li>
               </ul>
               
               <p className="description-text">
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident
+                With a focus on taste, hygiene, and affordability, we prepare every meal with care, 
+                using fresh ingredients and traditional recipes. Whether you're craving a wholesome lunch 
+                or a simple, satisfying dinner, Venkatalaxmi Mess is here to serve you with the warmth 
+                and authenticity of home-cooked food.
               </p>
 
               <div className="video-container">

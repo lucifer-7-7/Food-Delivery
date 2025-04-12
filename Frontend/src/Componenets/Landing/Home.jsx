@@ -1,10 +1,10 @@
 import React from 'react';
 import Main from './Main';
-import About from './About';
-import MenuSection from './MenuSection';
-import Testimonials from './Testimonilas';
-import Gallery from './Gallery';
-import Contact from './Contact';
+import About from './About/About';
+import MenuSection from '../MenuSection';
+import Testimonials from './Testiminials/Testimonilas';
+import Gallery from './Gallery/Gallery';
+import Contact from './Contact/Contact';
 
 const Home = () => {
   return (
